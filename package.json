@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "botkit": "^0.7.2",
+    "node-cron": "^2.0.3",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
